@@ -1,0 +1,402 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header { /*центролизация меню*/
+	height: 121;
+	width:100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+  }
+
+ 
+.menu {
+	
+	width: 90%;  
+    height: 100px;  
+    background: #fff;  
+    position:fixed;  
+    top:0px;     
+    z-index:100; 
+	float: right;
+	margin-left:190px;
+	
+	
+}
+
+.menu ul {
+	clear:left;
+	float:left;
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:relative;
+	left:50%;
+	text-align:center;
+	
+}
+
+.menu ul li {
+	display: inline-flex;
+	display:block;
+	float:left;
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:relative;
+	right:50%;
+	
+
+	height: 2rem;
+    height: auto;
+    margin: 2rem 0 2rem 0;
+    position: relative;
+    
+}
+
+	
+.menu a:hover{
+	background-color: #ffcc00;
+} /*выделение при наведении*/
+
+.menu ul { /*стилизирование ссылок меню*/
+	display: flex;
+	flex-flow: row nowrap;
+	margin: 0;
+	padding: 0;
+	font-size: 40px;
+	line-height: 25px;
+	list-style: none;
+	
+}
+
+.menu a,
+.menu .active {
+	display: block;
+	padding: 8px 20px;
+	text-transform: uppercase;
+	letter-spacing: .27em;
+	border-radius: 5px;
+}
+
+.menu a {
+	color: #000;
+	text-decoration: none;
+}
+
+.logo-img{
+	
+    height: 46px;
+    border-radius: 50%;
+	overflow: hidden;
+	margin-top: -6px;
+}
+
+.logo img {
+	width: 190px;
+	height: 100px;
+	}
+
+header { /*центролизация меню*/
+	height: 121;
+	width:100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+  }
+
+ 
+.menu {
+	
+	width: 90%;  
+    height: 100px;  
+    background: #fff;  
+    position:fixed;  
+    top:0px;     
+    z-index:100; 
+	float: right;
+	margin-left:190px;
+	
+	
+}
+
+.menu ul {
+	clear:left;
+	float:left;
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:relative;
+	left:50%;
+	text-align:center;
+	
+}
+
+.menu ul li {
+	display: inline-flex;
+	display:block;
+	float:left;
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:relative;
+	right:50%;
+	
+
+	height: 2rem;
+    height: auto;
+    margin: 2rem 0 2rem 0;
+    position: relative;
+    
+}
+
+	
+.menu a:hover{
+	background-color: #ffcc00;
+} /*выделение при наведении*/
+
+.menu ul { /*стилизирование ссылок меню*/
+	display: flex;
+	flex-flow: row nowrap;
+	margin: 0;
+	padding: 0;
+	font-size: 40px;
+	line-height: 25px;
+	list-style: none;
+	
+}
+
+.menu a,
+.menu .active {
+	display: block;
+	padding: 8px 20px;
+	text-transform: uppercase;
+	letter-spacing: .27em;
+	border-radius: 5px;
+}
+
+.menu a {
+	color: #000;
+	text-decoration: none;
+}
+
+.logo img{
+	
+    width: 190px;
+    height: 100px;
+	overflow: hidden;
+	
+}
+
+
+.pic{
+    /* Используемое изображение */
+    background: url("about.jpg");
+  
+    /* Полный рост */
+    height: 50%;
+  
+    /* Центр и масштабирование изображения */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*Форма на Картинке*/
+  body, html {
+    height: 100%;
+    
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    /* Используемое изображение */
+    background-image: url("about.jpg");
+  
+    top:100px;
+    min-height: 550px;
+  
+    /* Центр и масштаб изображения */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Добавление стилей в контейнер форм */
+  .container1 {
+    position: absolute;
+    right: 0;
+    margin: 60px;
+    max-width: 400px;
+    padding: 16px;
+    background-color: white;
+    top:80px;
+    border-radius: 5px;
+  }
+  
+  /* Поля ввода полной ширины */
+  input[type=text], input[type=number] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: rgb(224, 224, 224);
+    border-radius: 5px;
+  }
+  
+  input[type=text]:focus, input[type=number]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Установите стиль для кнопки отправить */
+  .btn {
+    background-color:#ffcc00;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  .pit3 h1{
+    position: relative;
+    top:170px;
+    left: 25px;
+    
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .pit4 h1{
+    position: relative;
+    top:210px;
+    left: 265px;
+    font-size: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .text6{
+    display: block;
+    position: relative;
+    top:230px;
+    height: 50;
+    width: 1500px;
+    left: 50px; 
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text7{
+    display: block;
+    position: relative;
+    top:250px;
+    left: 50px;
+    height: 50;
+    width: 1500px;
+   
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.pit5 h1{
+    position: relative;
+    top:270px;
+    left: 265px;
+    font-size: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .text8{
+    display: block;
+    position: relative;
+    top:290px;
+    height: 50;
+    width: 1500px;
+    left: 50px;
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .text6 ul{
+    position: relative;
+    top:20px;
+    left: 50px;
+    display: block;
+    height: 50;
+    width: 1200px;
+ }
+
+
+
+ .text8 ul{
+    position: relative;
+    top:20px;
+    left: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50;
+    width: 1500px;
+ }
+
+ .card{
+    position: relative;
+    top:300px;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto; 
+    
+ }
+
+ footer {
+	
+	background-color: rgb(46, 46, 46);
+	height: 100px;
+	position: relative;
+    top:2200px;
+	position: absolute;
+	width: 100%;
+	color: rgb(255, 255, 255);
+}
+
+footer p{
+	position: relative;
+    top:30px;
+	left: 50px;
+}
